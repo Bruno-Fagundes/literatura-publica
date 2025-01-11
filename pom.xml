@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.1</version>
+		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -15,7 +15,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>literatura-publica</name>
 	<description>Aplicação Web para Literatura em Domínio Público</description>
-	<url>https://www.exemplo.com</url> <!-- Defina a URL do seu projeto -->
+	<url>https://www.exemplo.com</url>
 
 	<properties>
 		<java.version>21</java.version>
@@ -146,6 +146,7 @@
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
+							<version>${lombok.version}</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
@@ -156,7 +157,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>org.literatura.publica.LiteraturaPublicaApplication</mainClass> <!-- Certifique-se de que o caminho da classe principal está correto -->
+					<mainClass>org.literatura.publica.LiteraturaPublicaApplication</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
