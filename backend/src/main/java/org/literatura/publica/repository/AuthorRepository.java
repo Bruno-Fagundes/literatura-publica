@@ -1,0 +1,6 @@
+package org.literatura.publica.repository;
+
+import org.literatura.publica.model.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AuthorRepository extends JpaRepository<Author, Long> { }
