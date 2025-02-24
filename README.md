@@ -14,7 +14,7 @@ O **Literatura Pública** é um projeto desenvolvido como parte do Trabalho de C
 ## Estrutura do Projeto
 
 ### Backend
-Localizado na pasta `backend`, estruturado conforme o padrão MVC:
+Localizado na pasta `backend`, estruturado conforme o padrão da arquitetura em camdas:
 ```
 backend/src/main/java/org/literatura/publica
 ├── controller/       # Controladores para gerenciamento de requisições HTTP
